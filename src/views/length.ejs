@@ -1,0 +1,39 @@
+<%- include('includes/head.ejs') %>
+
+<%- include('includes/navigation.ejs') %>
+  
+<h1 id="measurement">Length</h1>
+
+<form class="form-div" action="/length" method="POST">
+  <label for="length">Enter the length to convert</label>
+  <input type="number" name="length" id="length" value="0" step=".001">
+
+  <label for="unit_from">Unit to convert from</label>
+  <select name="unit_from" id="unit_from">
+    <option value="millimeter">millimeter</option>
+    <option value="centimeter">centimeter</option>
+    <option value="meter" selected>meter</option>
+    <option value="kilometer">kilometer</option>
+    <option value="inch">inch</option>
+    <option value="foot">foot</option>
+    <option value="yard">yard</option>
+    <option value="mile">mile</option>
+  </select>
+
+  <label for="unit_to">Unit to convert to</label>
+  <select name="unit_to" id="unit_to">
+    <option value="millimeter">millimeter</option>
+    <option value="centimeter">centimeter</option>
+    <option value="meter" selected>meter</option>
+    <option value="kilometer">kilometer</option>
+    <option value="inch">inch</option>
+    <option value="foot">foot</option>
+    <option value="yard">yard</option>
+    <option value="mile">mile</option>
+  </select>
+
+  <button type="submit">Convert</button>
+</form>
+
+</body>
+</html>

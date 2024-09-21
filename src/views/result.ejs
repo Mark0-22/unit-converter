@@ -1,0 +1,18 @@
+<%- include('includes/head.ejs') %>
+
+<%- include('includes/navigation.ejs') %>
+  
+<h1 id="measurement"><%= measurement %></h1>
+
+<div class="form-div">
+  <h4>Result of your calculation</h4>
+
+  <p><%=` ${value} ${unit_from} `%> = <%=` ${converted} ${unit_to} `%></p>
+
+  <a id="reset_a" href= <%= path %>>
+    <button id="reset" type="submit">Reset</button>
+  </a>
+</div>
+
+</body>
+</html>

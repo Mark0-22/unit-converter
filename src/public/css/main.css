@@ -1,0 +1,122 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#home {
+  text-align: center;
+  margin-top: 8em;
+  text-decoration: solid;
+  font-style: italic;
+}
+
+#measurement {
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+.unit-converter {
+  background-color: darkgreen;
+  display: flex;
+  width: 100%;
+  margin-top: 0;
+  height: 3.5rem;
+  padding: 0 1.5rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.unit-converter h1 {
+  color: white;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+.navigation {
+  background-color: darkgreen;
+  display: flex;
+  width: 100%;
+  margin-top: 0;
+  height: 3.5rem;
+  padding: 0 1.5rem;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.unit {
+  font: inherit;
+  font-size: larger;
+  background: transparent;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.unit a:active,
+.unit a:hover,
+.unit a.active,
+.unit button:active,
+.unit button:hover {
+  color: yellow;
+}
+
+label {
+  display: block;
+  padding: 10px 0;
+}
+
+input,
+select {
+  display: block;
+  padding: 5px;
+  width: 80%;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.form-div {
+  background-color: lightblue;
+  border-radius: 30px;
+  border: 3px solid black;
+  margin: 3rem auto;
+  display: block;
+  width: 25%;
+  padding: 15px 30px;
+}
+
+.form-div a {
+  color: black;
+  font-weight: bolder;
+  font-size: larger;
+  display: flex;
+  justify-content: left;
+}
+
+.form-div a:hover {
+  color: blue;
+}
+
+#reset_a {
+  width: 40%;
+}
+
+#reset {
+  padding: 12px 0;
+  margin: 0;
+  width: 100%;
+}

@@ -1,0 +1,33 @@
+<%- include('includes/head.ejs') %>
+
+<%- include('includes/navigation.ejs') %>
+  
+<h1 id="measurement">Weigth</h1>
+
+<form class="form-div" action="/weigth" method="POST">
+  <label for="weigth">Enter the length to convert</label>
+  <input type="number" name="weigth" id="weigth" value="0" step=".001">
+
+  <label for="unit_from">Unit to convert from</label>
+  <select name="unit_from" id="unit_from">
+    <option value="milligram">milligram</option>
+    <option value="gram">gram</option>
+    <option value="kilogram" selected>kilogram</option>
+    <option value="ounce">ounce</option>
+    <option value="pound">pound</option>
+  </select>
+
+  <label for="unit_to">Unit to convert to</label>
+  <select name="unit_to" id="unit_to">
+    <option value="milligram">milligram</option>
+    <option value="gram">gram</option>
+    <option value="kilogram" selected>kilogram</option>
+    <option value="ounce">ounce</option>
+    <option value="pound">pound</option>
+  </select>
+
+  <button type="submit">Convert</button>
+</form>
+
+</body>
+</html>
