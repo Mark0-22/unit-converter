@@ -2,6 +2,8 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+Web app that can convert between different units of measurement.
+
 ## Clone Repository
 
 ```bash
